@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Web design class...</title>
+</head>
+<body>
+    <!-- this is html code... -->
+    <!-- 
+h1 - heading 1 (h1 - h6)
+b - bold 
+i - itallics
+em - emphasis 
+embed 
+mark - 
+p - paragraph 
+List in html
+1. ordered list - ol  (li - list items)
+2. unordered list - ul (li - list items)
+3. definition list - dl
+header 
+section
+div - division
+aside
+nav
+table
+form
+detail
+anchor tags
+image
+videos
+form types:
+text, email, password, date, color, select, radio, file, checkbox
+selector{
+    properties:value;
+}
+
+3 ways to include css
+1. inline, 
+2. Internal/embeded.
+3. External
+
+I will show you guys the implementation in the next class.
+
+Have a great day ahead!
+     -->
+
+<style>
+    li{
+        list-style-type: none;
+        display:inline;
+        padding:3rem;
+    }
+</style>
+<nav style="background-color:orange ; color:black;">
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>FAQ</li>
+        <li>
+            <span>
+                <img src="img/Wikimedia-logo.png" height="100" width="100">   
+        </li>
+    </ul>
+</nav>
+<header>
+    <h1>This is heading 1 in html 5</h1>
+    <p>Lorem <b>ipsum dolor sit amet,</b>  consectetur adipisicing elit. <i>Hic, aliquid consectetur.</i>  Qui laborum pariatur <mark>reiciendis fugiat!</mark>  Saepe quasi, voluptatum expedita quisquam voluptas hic ex quo eum doloribus rerum corporis voluptate.</p>
+</header>
+
+<section>
+    <h3>Shopping List</h3>
+    <ol>
+        <li>Butter</li>
+        <li>Milk</li>
+        <li>Eggs</li>
+        <li>Bread</li>
+        <li>Cheese</li>
+    </ol>
+</section>
+
+<aside>
+    <ul>
+        <li>Butter</li>
+        <li>Milk</li>
+        <li>Eggs</li>
+        <li>Bread</li>
+        <li>Cheese</li>
+    </ul>    
+</aside>
+
+<div>
+    <dl>
+        <dt>Butter</dt>
+        <dd>Solid form of milk, fat</dd>
+    </dl>
+</div>
+
+<h1>Register here</h1>
+<form>
+    <div>
+        <label for="fname">FirstName:</label>
+        <input type="text" name="fname" id="fname" placeholder="Your first name here" required>
+    </div>
+    <div>
+        <label for="lname">LastName:</label>
+        <input type="text" name="lname" id="lname" placeholder="Your last name here" required>
+    </div>
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Your email here" required>
+    </div>
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="Your password here" required>
+    </div>
+    <div>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="gender" value="f">Female
+        <input type="radio" name="gender" id="gender" value="m">Male
+    </div>
+    <div>
+        <label for="fcolor">Favourite Colour:</label>
+        <input type="checkbox" name="fcolor" id="fcolor" value="b">Blue
+        <input type="checkbox" name="fcolor" id="fcolor" value="r">Red
+        <input type="checkbox" name="fcolor" id="fcolor" value="y">Yellow
+    </div>
+    <div>
+        <label for="cy">Country</label>
+        <select name="cy" id="cy">
+            <option value="USA">AMERICA</option>
+            <option value="CA">CANADA</option>
+        </select>
+    </div>
+    <div>
+        <label for="pp">Profile Picture</label>
+        <input type="file" name="pp" id="pp">
+    </div>
+    <button type="button">Submit</button>
+   
+    
+    
+</form>
+
+<footer>
+  <p> &copy; webclass 2022  </p>  
+</footer>
+</body>
+</html>
