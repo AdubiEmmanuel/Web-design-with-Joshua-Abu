@@ -1,0 +1,27 @@
+/* 
+:root - stores all set styling as variables
+margin - spacing outside of container
+padding - spacing within container
+border radius - used to round out square shaperd elemets, ex. buttons, boxes
+
+Color Types CSS:
+  -> rgb - color code based on color saturation of red, green and blue. Value can be anything betwwen and including 0 - 255.
+  -> rgba - same as above, but a represents opacity, usually number betwwen 0 - 1
+  -> hexadecimal color - goes from 0 - 9, a-f; hex code; each pair represents rgb
+  -> hsl - stand for hue, saturation, and light. 
+
+
+
+*/
+
+:root {
+  --DeepGreen: #006D77;
+  --LightGreen: #83C5BE;
+  --NeutralWhite: #EDF6F9;
+  --LightSalmon: #FFDDD2;
+  --DarkSalmon: #E26578;
+}
+
+body {
+  background-color: var(--DeepGreen);
+}
